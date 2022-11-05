@@ -10,11 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: "befor listing files"
-        run: ls
-
       - uses: actions/checkout@v3
-
-      - name: "after listing files"
-        run: ls
+      - name: "login to dockehub"
+        run: docker login --username nadaadel19 --password dckr_pat_TBDIxcSVg3K4MI--pyDDPH-rJeg
      
